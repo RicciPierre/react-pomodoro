@@ -1,0 +1,114 @@
+body {
+  background-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.699);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+h2 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-size: 4rem;
+  font-weight: lighter;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px goldenrod,
+    0 0 20px goldenrod, 0 0 25px goldenrod, 0 0 30px goldenrod,
+    0 0 35px goldenrod;
+}
+
+h4 {
+  position: relative;
+  top: 45px;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: lighter;
+  margin: 30px 0;
+  margin-top: 0;
+}
+
+.interval-container {
+  display: flex;
+  margin: 0 80px;
+  align-items: center;
+}
+
+.interval-length-container {
+  display: flex;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5px;
+  margin: 0 40px;
+  background-color: black;
+  box-shadow: 0 1px 5px goldenrod;
+  outline: none;
+  cursor: pointer;
+  color: rgba(218, 165, 32, 0.712);
+  width: 90px;
+  border-radius: 10px;
+}
+
+.up,
+.down {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  padding: 0;
+  margin: 5px 20px;
+  background-color: black;
+  box-shadow: 0 1px 5px goldenrod;
+  outline: none;
+  cursor: pointer;
+  color: rgba(218, 165, 32, 0.712);
+  width: 35px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.2;
+}
+
+.interval-p {
+  font-size: 2rem;
+  margin: 0 20px;
+}
+
+.timer-container {
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 50px;
+  border-radius: 250px;
+  text-align: center;
+  box-shadow: 0 0 5px #fff, 0 0 10px goldenrod, 0 0 15px goldenrod,
+    0 0 20px goldenrod;
+  padding: 40px;
+  width: 250px;
+  height: 250px;
+}
+
+.timer {
+  position: relative;
+  top: 40px;
+  padding: 5px;
+  font-size: 3rem;
+}
+
+.timer-actions {
+  margin-top: 30px;
+  text-align: center;
+}
+
+
+/*# sourceMappingURL=/app.77c12427.css.map */

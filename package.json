@@ -1,0 +1,38 @@
+{
+  "name": "react-pomodoro",
+  "version": "1.0.0",
+  "description": "pomodoro with react",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicciPierre/react-pomodoro.git"
+  },
+  "keywords": [
+    "pomodoro",
+    "react"
+  ],
+  "author": "Pierre Ricci",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicciPierre/react-pomodoro/issues"
+  },
+  "homepage": "https://github.com/RicciPierre/react-pomodoro#readme",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@typescript-eslint/eslint-plugin": "^4.22.0",
+    "@typescript-eslint/parser": "^4.22.0",
+    "eslint": "^7.24.0",
+    "eslint-plugin-react": "^7.23.2",
+    "parcel-bundler": "^1.12.5"
+  }
+}
