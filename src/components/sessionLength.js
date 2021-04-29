@@ -3,7 +3,7 @@ import React from "react";
 
 function SessionLenght(props) {
   function decreaseSession() {
-    if (props.sessionLength === 5) {
+    if (props.sessionLength === 0) {
       return;
     }
     props.decreaseSession();
