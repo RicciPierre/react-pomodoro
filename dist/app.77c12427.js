@@ -29653,7 +29653,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 /* eslint-disable react/prop-types */
 function SessionLenght(props) {
   function decreaseSession() {
-    if (props.sessionLength === 5) {
+    if (props.sessionLength === 0) {
       return;
     }
 
@@ -32550,6 +32550,7 @@ var Timer = /*#__PURE__*/function (_React$Component) {
   }, {
     key: "handleClose",
     value: function handleClose() {
+      this.props.handleClose(window.location.reload());
       this.setState({
         show: false
       });
@@ -32674,8 +32675,8 @@ var Pomodoro = /*#__PURE__*/function (_React$Component) {
     value: function onDecreaseSessionLength() {
       this.setState(function (prevState) {
         return {
-          sessionLength: prevState.sessionLength - 1,
-          timerMinute: prevState.sessionLength - 1
+          sessionLength: prevState.sessionLength - 5,
+          timerMinute: prevState.sessionLength - 5
         };
       });
     }
@@ -32783,7 +32784,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41695" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33031" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

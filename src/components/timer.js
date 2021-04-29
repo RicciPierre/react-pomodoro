@@ -68,6 +68,7 @@ class Timer extends React.Component {
   }
 
   handleClose() {
+    this.props.handleClose(window.location.reload());
     this.setState({
       show: false
     });
