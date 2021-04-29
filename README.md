@@ -46,5 +46,5 @@ Here is the [**LINK**](https://keen-wiles-965e4a.netlify.app/).
 - [**ESLint**](https://eslint.org/)
 
 
-[pomodorrro](https://media1.tenor.com/images/e845cf9df1985bdd1e569fa548f9d1e4/tenor.gif?itemid=12706835) 
+![pomodorrro](https://media1.tenor.com/images/e845cf9df1985bdd1e569fa548f9d1e4/tenor.gif?itemid=12706835) 
 ---
