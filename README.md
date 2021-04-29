@@ -27,6 +27,9 @@ Also discovered some build tools, with [Parcel](https://parceljs.org/), and have
   - **plus (+)** and **minus (-)**, they will allow the user to adjust the _minutes counter_ - **only when it's stopped**.
   - **start**, to run the timer
   - **reset**, to… reset the timer to its original value
+- At the end of the timer, show a modal to invite user to *take a break*. The modal will have two buttons:
+  - One to close the modal
+  - Another to close the modal *and* start a new timer
 
 ### Hosting
 
@@ -34,4 +37,14 @@ Using: [**Netlify**](https://www.netlify.com).
 
 Here is the [**LINK**](https://keen-wiles-965e4a.netlify.app/).
 
+### Ressources
+
+- [**React**](https://reactjs.org/)
+- [**React modal**](https://www.npmjs.com/package/react-modal)
+- [**Babel**](https://babeljs.io/)
+- [**Parcel**](https://parceljs.org/)
+- [**ESLint**](https://eslint.org/)
+
+
+![pomodorrro](https://media1.tenor.com/images/e845cf9df1985bdd1e569fa548f9d1e4/tenor.gif?itemid=12706835) 
 ---
